@@ -26,9 +26,9 @@ public class StringMethods01 {
 		System.out.println(a.indexOf("diyer"));//-1
 		System.out.println(a.indexOf('w'));//-1	
 		
-		System.out.println(a.indexOf("d", 4));//7
-		System.out.println(a.indexOf("a", 9));//19
-		System.out.println(a.indexOf('e', 8));//8
+		System.out.println(a.indexOf("d", 4));//7=> 4.index'ten sonraki "d"nin indexini print eder.
+		System.out.println(a.indexOf("a", 9));//19 => => 9.index'ten sonraki "d"nin indexini print eder.
+		System.out.println(a.indexOf('e', 8));//8 => => 8.index'ten sonraki "d"nin indexini print eder.
 		
 		//13. lastIndexOf() methodu son gorunumun index'ini verir
 		String b = "Java ah Java!";	
